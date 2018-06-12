@@ -12,11 +12,12 @@
                         }
                     ],
                     "samples": [
-                        "run run run {Query}",
-                        "go go go {Query}",
-                        "robot robot robot {Query}",
-                        "bot bot bot {Query}",
-                        "shmoo shmoo shmoo {Query}"
+                        "freeform command {Query}",
+                        "freeform query {Query}",
+                        "freeform text {Query}",
+                        "variable command {Query}",
+                        "variable query {Query}",
+                        "variable text {Query}"
                     ]
                 }
             ],
