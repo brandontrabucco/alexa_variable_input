@@ -16,7 +16,7 @@ def app_init():
     mapping={"message": "Query"})
 
 def handle_freeform(message):
-    return statement(
+    return question(
         "Your message was: " +
         message)
 
