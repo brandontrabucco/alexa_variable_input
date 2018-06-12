@@ -1,0 +1,26 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "variable text input",
+            "intents": [
+                {
+                    "name": "VariableIntent",
+                    "slots": [
+                        {
+                            "name": "Query",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "run run run {Query}",
+                        "go go go {Query}",
+                        "robot robot robot {Query}",
+                        "bot bot bot {Query}",
+                        "shmoo shmoo shmoo {Query}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
